@@ -1,2 +1,14 @@
-# NFHS5
-Python code that reads and retrieves district-level findings from official publications (pdf) 
+# Tutorial-style Jupyter Notebooks to read and store NFHS-5 data (district-level summaries only) from official pdf documents.
+I wrote these tutorial-style notebooks when I was learning to use the fitz and PyPDF2 packages in Python for reading text from PDFs.
+
+Step 1: [Download State and District-level PDFs]()
+Step 2: [Pickle the Indicators]() 
+Step 3: [Save district-level statistics to DataFrame]() 
+
+## Code Credit
+[@kalyaninagaraj](https://github.com/kalyaninagaraj/)
+
+## Resources
+1. [National Family Health Survey of India](http://rchiips.org/nfhs/factsheet_NFHS-5.shtml) (official website)
+2. [fitz, or PyMuPDF](https://pymupdf.readthedocs.io/en/latest/intro.html) (documentation)
+3. [pickle](https://docs.python.org/3/library/pickle.html) (documentaion)
