@@ -1,5 +1,5 @@
 # Read and store NFHS-5 data (district-level summaries only) from official pdf documents
-I wrote these tutorial-style notebooks when I was learning to use the fitz and PyPDF2 packages in Python for reading text from PDFs.
+I wrote these tutorial-style notebooks when I was learning to use the `fitz` module (in `PyMuPDF`) for reading text from PDFs.
 
 1. Step 1: [Download State and District-level PDFs](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/DownloadPDFs.ipynb)
 2. Step 2: [Pickle the Indicators](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/PickleIndicators.ipynb) 
