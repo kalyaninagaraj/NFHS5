@@ -2,7 +2,7 @@
 I wrote these tutorial-style notebooks when I was learning to use the `fitz` module (in `PyMuPDF`) for reading text from PDFs.
 
 1. [Download State and District-level PDFs](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/DownloadPDFs.ipynb)  
-   Download PDF reports of key indicators for each state/UT and each of their districts. 
+   Download PDF reports of key indicators for each state/UT and each of their districts from [http://rchiips.org/nfhs/](http://rchiips.org/nfhs/)
 2. [Pickle the Indicators](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/PickleIndicators.ipynb)  
    Save indicators, names of states/UTs and their respective districts in dictionary format for easy "pickling" (serializing)  
 3. [Save district-level statistics to DataFrame](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/WriteToDataFrame.ipynb)  
