@@ -16,12 +16,12 @@
    
    ![2D-PCA](IMAGES/2D-PCA.png) 
    
-   Here's a 3D representation of the same 95-dimensional data, which explains roughly 40% of the variance in the data  
+   And here's a 3D representation of the same 95-dimensional data, which explains roughly 40% of the variance in the data:  
    
    ![3D-PCA](IMAGES/3D-PCA.png) 
    
 5. __Display NFHS-5 data on maps using GeoPandas__ [[Link to notebook]()]  
-   Generate maps to view reported statistics for each district. Missing or unavailable entries are estimated using Principal Component Analysis (PCA). The images below are screenshots of three such statistics. 
+   Generate maps to view reported statistics for each district. Missing or unavailable entries are estimated using Principal Component Analysis (PCA). The images below are screenshots of three such statistics. The number of principal components for imputing missing entries is chosen in such a way so as to explain 99% percent variance in the data. 
    
    (a) __Percentage of literate women (aged 15-49)__ [[Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html)]  
    
@@ -31,8 +31,8 @@
    
    ![Q20](IMAGES/Q20.png)  
    
-   (c) __Percentage of pregnant women (aged 15-49) who are anaemic__ [[Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q83.html)]  
-  
+   (c) __Percentage of pregnant women (aged 15-49) who are anaemic__ [[Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q83.html)] 
+   
    ![Q83](IMAGES/Q83.png)  
    
   
