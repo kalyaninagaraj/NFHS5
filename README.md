@@ -1,12 +1,12 @@
 # Read, store and analyze NFHS-5 data from district-level summaries
 
-1. __Download State and District-level PDFs__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/DownloadPDFs.ipynb)]  
+1. __Download State and District-level PDFs__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/DownloadPDFs.ipynb)]  
    Download PDF reports of key indicators for each state/UT and each of their districts from [http://rchiips.org/nfhs/](http://rchiips.org/nfhs/).
    
-2. __Pickle the Indicators__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/PickleIndicators.ipynb)]  
+2. __Pickle the Indicators__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/PickleIndicators.ipynb)]  
    Save indicators, names of states/UTs and their respective districts in dictionary format for easy "pickling" (serializing).  
    
-3. __Save district-level statistics to DataFrame__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/WriteToDataFrame.ipynb)]  
+3. __Save district-level statistics to DataFrame__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/WriteToDataFrame.ipynb)]  
    Read the PDF reports sequentially and store 104 indicator values for all 704 districts in a CSV file.
    
 4. __Perform PCA on the reported NFHS-5 data__ [[Link to notebook]()]  
