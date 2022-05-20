@@ -12,7 +12,7 @@
 4. __Perform PCA on the reported NFHS-5 data__ [[Link to notebook]()]  
    Perform PCA to (1) reduce dimensionality for plotting, and to (2) impute missing (unavailable) values in the dataset. 
    
-   For example, the plot below is a 2D representation of the original 95-dimensional data. This reduction is dimensionality explains only about 34% of the variance in the data. The 3D representation explains roughly 40% of the variance in the data:  
+   For example, the plot below on the left is a 2D representation of the original 95-dimensional data. Each dot represents a district in the dataset, and  the two highlighted in red are from the state of Goa. This reduction in the data's orignal dimensionality (to 2 dimensions) explains only about 34% of the variance in the data. A 3D representation (on the right below) explains roughly 40% of the variance in the data.
    
 |   2-D PCA                 |  3-D PCA                   |
 |:-------------------------:|:-------------------------: |
