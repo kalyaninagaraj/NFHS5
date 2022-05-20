@@ -43,3 +43,4 @@
 2. [fitz, or PyMuPDF](https://pymupdf.readthedocs.io/en/latest/intro.html) (documentation)
 3. [pickle](https://docs.python.org/3/library/pickle.html) (documentaion)
 4. [GeoPandas](https://geopandas.org) (documenatation)
+5. [District boundary data of India](https://www.kaggle.com/datasets/imdevskp/india-district-wise-shape-files) in the form of shapefiles sourced from www.Kaggle.com
