@@ -12,6 +12,14 @@
 4. __Perform PCA on the reported NFHS-5 data__ [[Link to notebook]()]  
    Perform PCA to (1) reduce dimensionality for plotting, and to (2) impute missing (unavailable) values in the dataset. 
    
+   For example, the plot below is a 2D representation of the original 95-dimensional data. This reduction is dimensionality explains only about 34% of the variance in the data.   
+   
+   ![2D-PCA](IMAGES/2D-PCA.png) 
+   
+   Here's a 3D representation of the same 95-dimensional data, which explains roughly 40% of the variance in the data  
+   
+   ![3D-PCA](IMAGES/3D-PCA.png) 
+   
 5. __Display NFHS-5 data on maps using GeoPandas__ [[Link to notebook]()]  
    Generate maps to view reported statistics for each district. Missing or unavailable entries are estimated using Principal Component Analysis (PCA). The images below are screenshots of three such statistics. 
    
