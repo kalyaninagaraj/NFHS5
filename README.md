@@ -14,10 +14,7 @@
    
 5. [Display NFHS-5 data on maps using GeoPandas]()  
    View the statistics like  
-   (1) [percentage of literate women (aged 15-49)](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html),  
-
-   <iframe src="https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html" height="500" width="500"></iframe>
-   
+   (1) [percentage of literate women (aged 15-49)](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html),     
    (2) [percentage of married women (aged 15-49) who follow some family planning method](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q20.html),  
    (3) [percentage of pregnant women (aged 15-49) who are anaemic](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q83.html)  
    for each district on a map of India. Missing or unavailable entries are estimated using Principal Component Analysis (PCA).  
