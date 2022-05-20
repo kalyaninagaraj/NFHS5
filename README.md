@@ -14,14 +14,13 @@
    
    For example, the plot below is a 2D representation of the original 95-dimensional data. This reduction is dimensionality explains only about 34% of the variance in the data.   
    
-   ![2D-PCA](IMAGES/2D-PCA.png) 
+   ![2D-PCA](IMAGES/2D-PCA.png)    ![3D-PCA](IMAGES/3D-PCA.png) 
    
    And here's a 3D representation of the same 95-dimensional data, which explains roughly 40% of the variance in the data:  
    
-   ![3D-PCA](IMAGES/3D-PCA.png) 
    
 5. __Display NFHS-5 data on maps using GeoPandas__ [[Link to notebook]()]  
-   Generate maps to view reported statistics for each district. Missing or unavailable entries are estimated using Principal Component Analysis (PCA). The images below are screenshots of three such statistics. The number of principal components for imputing missing entries is chosen in such a way so as to explain 99% percent variance in the data. 
+   Generate maps to view reported statistics for each district. Missing or unavailable entries are estimated using Principal Component Analysis (PCA). The images below are screenshots of three such statistics. The number of principal components for imputing missing entries is chosen in such a way so as to explain 99% percent of the variance in the dataset. 
    
    (a) __Percentage of literate women (aged 15-49)__ [[Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html)]  
    
