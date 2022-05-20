@@ -1,29 +1,29 @@
 # Read, store and analyze NFHS-5 data from district-level summaries
 
-1. [Download State and District-level PDFs](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/DownloadPDFs.ipynb)  
-   Download PDF reports of key indicators for each state/UT and each of their districts from [http://rchiips.org/nfhs/](http://rchiips.org/nfhs/)
+1. __Download State and District-level PDFs__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/DownloadPDFs.ipynb)]  
+   Download PDF reports of key indicators for each state/UT and each of their districts from [http://rchiips.org/nfhs/](http://rchiips.org/nfhs/).
    
-2. [Pickle the Indicators](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/PickleIndicators.ipynb)  
-   Save indicators, names of states/UTs and their respective districts in dictionary format for easy "pickling" (serializing)  
+2. __Pickle the Indicators__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/PickleIndicators.ipynb)]  
+   Save indicators, names of states/UTs and their respective districts in dictionary format for easy "pickling" (serializing).  
    
-3. [Save district-level statistics to DataFrame](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/WriteToDataFrame.ipynb)  
+3. __Save district-level statistics to DataFrame__ [[Link to notebook](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/WriteToDataFrame.ipynb)]  
    Read the PDF reports sequentially and store 104 indicator values for all 704 districts in a CSV file.
    
-4. [Perform PCA on the reported NFHS-5 data]()  
+4. __Perform PCA on the reported NFHS-5 data__ [[Link to notebook]()]  
    Perform PCA to (1) reduce dimensionality for plotting, and to (2) impute missing (unavailable) values in the dataset. 
    
-5. [Display NFHS-5 data on maps using GeoPandas]()  
+5. __Display NFHS-5 data on maps using GeoPandas__ [[Link to notebook]()]  
    Generate maps to view reported statistics for each district. Missing or unavailable entries are estimated using Principal Component Analysis (PCA). The images below are screenshots of three such statistics. 
    
-   (1) __Percentage of literate women (aged 15-49)__ [Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html)  
+   (a) __Percentage of literate women (aged 15-49)__ [[Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html)]  
    
    ![Q14](IMAGES/Q14.png)   
    
-   (2) __Percentage of married women (aged 15-49) who follow some family planning method__ [Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q20.html)  
+   (b) __Percentage of married women (aged 15-49) who follow some family planning method__ [[Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q20.html)]  
    
    ![Q20](IMAGES/Q20.png)  
    
-   (3) __Percentage of pregnant women (aged 15-49) who are anaemic__ [Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q83.html)  
+   (c) __Percentage of pregnant women (aged 15-49) who are anaemic__ [[Link to HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q83.html)]  
   
    ![Q83](IMAGES/Q83.png)  
    
