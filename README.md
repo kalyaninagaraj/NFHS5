@@ -13,13 +13,21 @@
    Perform PCA to (1) reduce dimensionality for plotting, and to (2) impute missing (unavailable) values in the dataset. 
    
 5. [Display NFHS-5 data on maps using GeoPandas]()  
-   View the statistics like  
-   (1) [percentage of literate women (aged 15-49)](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html),     
+   View the statistics for each district on a map of India. Missing or unavailable entries are estimated using Principal Component Analysis (PCA).  
+   
+   (1) [Percentage of literate women (aged 15-49)](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html)  
+   
    ![Q14](IMAGES/Q14.png)   
-   (2) [percentage of married women (aged 15-49) who follow some family planning method](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q20.html),  
-   (3) [percentage of pregnant women (aged 15-49) who are anaemic](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q83.html)  
-   for each district on a map of India. Missing or unavailable entries are estimated using Principal Component Analysis (PCA).  
-
+   
+   (2) [Percentage of married women (aged 15-49) who follow some family planning method](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q20.html)  
+   
+   ![Q20](IMAGES/Q20.png)  
+   
+   (3) [Percentage of pregnant women (aged 15-49) who are anaemic](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q83.html)  
+  
+   ![Q83](IMAGES/Q83.png)  
+   
+  
 ## Code Credit
 [@kalyaninagaraj](https://github.com/kalyaninagaraj/)
 
