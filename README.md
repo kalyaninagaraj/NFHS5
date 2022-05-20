@@ -14,6 +14,10 @@
    
    For example, the plot below is a 2D representation of the original 95-dimensional data. This reduction is dimensionality explains only about 34% of the variance in the data.   
    
+   2-D PCA            |  3-D PCA
+:-------------------------:|:-------------------------:
+ ![2D-PCA](IMAGES/2D-PCA.png)  |  ![3D-PCA](IMAGES/3D-PCA.png) 
+   
    ![2D-PCA](IMAGES/2D-PCA.png)    ![3D-PCA](IMAGES/3D-PCA.png) 
    
    And here's a 3D representation of the same 95-dimensional data, which explains roughly 40% of the variance in the data:  
