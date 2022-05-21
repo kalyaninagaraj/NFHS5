@@ -7,10 +7,10 @@
    Save indicators, names of states/UTs and their respective districts in dictionary format for easy "pickling" (serializing).  
    
 3. __Save district-level statistics to DataFrame__ [[Notebook 3](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/3_WriteToDataFrame.ipynb)]  
-   Read the PDF reports sequentially and store 104 indicator values for all 704 districts in a CSV file.
+   Read the PDF reports sequentially and store 104 indicator values for each of 704 districts in a CSV file.
    
-4. __Perform PCA on the reported NFHS-5 data__ [[Notebook 4](https://github.com/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/4_PCA.ipynb)]  
-   Perform PCA to (1) reduce dimensionality for plotting, and to (2) impute missing (unavailable) values in the dataset. 
+4. __Perform PCA, K-Means Clustering on the reported NFHS-5 data__ [[Notebook 4](https://github.com/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/4_PCA.ipynb)]  
+   Perform PCA to (1) reduce dimensionality for plotting, and to (2) impute missing (unavailable or undersampled) values in the dataset. 
    
    For example, the plot below on the left is a 2D representation of the original 95-dimensional data. Each dot represents a district in the dataset, and  the two highlighted in red are from the state of Goa. This reduction in the data's orignal dimensionality (to 2 dimensions) explains only about 34% of the variance in the data. A 3D representation (on the right below) explains roughly 40% of the variance in the data.
    
@@ -19,18 +19,18 @@
 | ![2D-PCA](IMAGES/PCA-2D.png) |  ![3D-PCA](IMAGES/PCA-3D.png) |
       
    
-5. __Display NFHS-5 data on interactive maps using GeoPandas__ [[Notebook 5](https://github.com/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/5_Merge%20GeoPandas%20Shapefile%20and%20NFHS-5%20DataFrames.ipynb), [Python code for generating maps](CODE/plotMap.py)]  
+5. __Display NFHS-5 data on interactive maps using GeoPandas__ [[Notebook 5](https://github.com/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/5_Merge%20GeoPandas%20Shapefile%20and%20NFHS-5%20DataFrames.ipynb), [Python code for generating interactive maps](CODE/plotMap.py)]  
    Generate maps to view reported statistics for each district. Missing or unavailable entries are estimated using Principal Component Analysis (PCA). The images below are screenshots of maps showing three such indicators (or statistics) for different districts in the country. The number of principal components for imputing missing entries is chosen in such a way so as to explain 99% percent of the variance in the dataset. 
    
-   (a) __Percentage of literate women (aged 15-49)__ [[Link to interactive HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html)]  
+   (a) __Percentage of literate women (aged 15-49)__   
    
    ![Q14](IMAGES/Q14.png)   
    
-   (b) __Percentage of married women (aged 15-49) who follow some family planning method__ [[Link to interactive HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q20.html)]  
+   (b) __Percentage of married women (aged 15-49) who follow some family planning method__  
    
    ![Q20](IMAGES/Q20.png)  
    
-   (c) __Percentage of pregnant women (aged 15-49) who are anaemic__ [[Link to interactive HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q83.html)] 
+   (c) __Percentage of pregnant women (aged 15-49) who are anaemic__ 
    
    ![Q83](IMAGES/Q83.png)  
    
