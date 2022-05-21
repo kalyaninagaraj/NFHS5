@@ -3,7 +3,7 @@
 1. __Download State and District-level PDFs__ [[Notebook 1](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/1_DownloadPDFs.ipynb)]  
    Download PDF reports of key indicators for each state/UT and each of their districts from [http://rchiips.org/nfhs/](http://rchiips.org/nfhs/).
    
-2. __Pickle the Indicators__ [[Notebook 2A](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/2A_PickleIndicators.ipynb) [Notebook 2B](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/2B_Questions.ipynb)]
+2. __Pickle the Indicators__ [[Notebook 2A](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/2A_PickleIndicators.ipynb), [Notebook 2B](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/2B_Questions.ipynb)]
    Save indicators, names of states/UTs and their respective districts in dictionary format for easy "pickling" (serializing).  
    
 3. __Save district-level statistics to DataFrame__ [[Notebook 3](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/3_WriteToDataFrame.ipynb)]  
