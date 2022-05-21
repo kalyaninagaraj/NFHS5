@@ -16,7 +16,7 @@
    
 |   2-D PCA                 |  3-D PCA                   |
 |:-------------------------:|:-------------------------: |
-| ![2D-PCA](IMAGES/2D-PCA.png) |  ![3D-PCA](IMAGES/3D-PCA.png) |
+| ![2D-PCA](IMAGES/PCA-2D.png) |  ![3D-PCA](IMAGES/PCA-3D.png) |
       
    
 5. __Display NFHS-5 data on interactive maps using GeoPandas__ [[Link to notebook]()]  
