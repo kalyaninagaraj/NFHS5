@@ -19,7 +19,7 @@
 | ![2D-PCA](IMAGES/PCA-2D.png) |  ![3D-PCA](IMAGES/PCA-3D.png) |
       
    
-5. __Display NFHS-5 data on interactive maps using GeoPandas__ [[Notebook 5](https://github.com/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/5_Merge%20GeoPandas%20Shapefile%20and%20NFHS-5%20DataFrames.ipynb)]  
+5. __Display NFHS-5 data on interactive maps using GeoPandas__ [[Notebook 5](https://github.com/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/5_Merge%20GeoPandas%20Shapefile%20and%20NFHS-5%20DataFrames.ipynb) [Python code for generating maps](CODE/plotMap.py)]  
    Generate maps to view reported statistics for each district. Missing or unavailable entries are estimated using Principal Component Analysis (PCA). The images below are screenshots of maps showing three such indicators (or statistics) for different districts in the country. The number of principal components for imputing missing entries is chosen in such a way so as to explain 99% percent of the variance in the dataset. 
    
    (a) __Percentage of literate women (aged 15-49)__ [[Link to interactive HTML map](https://github.com/kalyaninagaraj/NFHS5/blob/main/MAPS/Q14.html)]  
