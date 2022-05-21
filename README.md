@@ -6,10 +6,10 @@
 2. __Pickle the Indicators__ [[Notebook 2A](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/2A_PickleIndicators.ipynb), [Notebook 2B](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/2B_Questions.ipynb)]
    Save indicators, names of states/UTs and their respective districts in dictionary format for easy "pickling" (serializing).  
    
-3. __Save district-level statistics to DataFrame__ [[Notebook 3](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/3_WriteToDataFrame.ipynb)]  
+3. __Save district-level statistics to DataFrame__ [[Notebook 3](https://nbviewer.org/github/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/3_WriteToDataFrame.ipynb), [Python code to reading PDF reports and saving data in CSV format](CODE/NFHS5.py)]  
    Read the PDF reports sequentially and store 104 indicator values for each of 704 districts in a CSV file.
    
-4. __Perform PCA, K-Means Clustering on the reported NFHS-5 data__ [[Notebook 4](https://github.com/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/4_PCA.ipynb)]  
+4. __Perform PCA, K-Means Clustering on the reported NFHS-5 data__ [[Notebook 4](https://github.com/kalyaninagaraj/NFHS5/blob/main/NOTEBOOKS/4_PCA.ipynb), [Python code that finds k-nearest PCA neighbors, impures missing values, and plots 2D/3D representations of all 704 data points](CODE/PCA.py)]  
    Perform PCA to (1) reduce dimensionality for plotting, and to (2) impute missing (unavailable or undersampled) values in the dataset. 
    
    For example, the plot below on the left is a 2D representation of the original 95-dimensional data. Each dot represents a district in the dataset, and  the two highlighted in red are from the state of Goa. This reduction in the data's orignal dimensionality (to 2 dimensions) explains only about 34% of the variance in the data. A 3D representation (on the right below) explains roughly 40% of the variance in the data.
