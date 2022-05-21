@@ -266,7 +266,7 @@ if __name__ == '__main__':
                       description = '''Perform PCA on the NFHS-5 database:'''
              )
     parser.add_argument('action', choices=['knn', 'impute', 'plot'], 
-                        help='Code returns k-nearest neighbors, imputes missing values, or plots a 2D/3D representation of all 705 data points')
+                        help='Code returns k-nearest neighbors, imputes missing values, or plots a 2D/3D representation of all 704 data points')
     parser.add_argument('--colTol', type=float,
                         help='up to what fraction of nan values in each column to disregard')
     parser.add_argument('-r', '--rdim', type=int, default=2,
