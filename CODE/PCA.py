@@ -1,3 +1,35 @@
+"""
+Perform PCA on the NFHS-5 database
+
+REQUIRES:
+    ../DATA/NFHS5.csv          : see NFHS5.py
+         
+
+USAGE EXAMPLES:
+1. Generate a 2D plot of the data from 2 principal components of the data set
+> python3 PCA.py plot
+
+2. Generate a 3D plot
+> python3 PCA.py plot --dplot 3
+
+3. Impute (estimate) missing values with PCA
+> python3 PCA.py impute --lmbda 0.70 
+
+4. Impute (estimate) missing values with PCA and set colTol to 0.23
+> python3 PCA.py impute --lmbda 0.80 --colTol 0.23
+
+5. Calculate the 6 nearest neighbors of Mumbai district in the data's 60-dimensional representation
+> python3 PCA.py knn --district Mumbai --knbrs 6
+
+6. To get help on usage
+> python3 PCA.py --help 
+
+
+AUTHOR
+Kalyani Nagaraj
+May 2022
+"""
+
 import argparse 
 import pandas as pd
 import numpy as np 
@@ -266,7 +298,7 @@ if __name__ == '__main__':
                       description = '''Perform PCA on the NFHS-5 database:'''
              )
     parser.add_argument('action', choices=['knn', 'impute', 'plot'], 
-                        help='Code returns k-nearest neighbors, imputes missing values, or plots a 2D/3D representation of all 704 data points')
+                        help='Code returns k-nearest neighbors, imputes missing values, or plots a 2D/3D representation of all 705 data points')
     parser.add_argument('--colTol', type=float,
                         help='up to what fraction of nan values in each column to disregard')
     parser.add_argument('-r', '--rdim', type=int, default=2,

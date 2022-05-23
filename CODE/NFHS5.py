@@ -1,3 +1,26 @@
+"""
+Downloads NFHS-5 district and state/UT reports (PDFs) from 
+the International Institute for Population Sciences website
+and srcapes each document to retrieve reported statistics for each
+district. 
+
+REQUIRES:
+    ../DATA/states.pickle      : see Notebook 1
+    ../DATA/districts.pickle.  : see Notebook 1
+    ../DATA/indicators.pickle  : see Notebook 2
+     
+GENERATES:
+    ../DATA/NFHS5.csv          : a comma separated file containing statistics 
+                                 from two surveys, NFHS-4 and NFHS-5, for each district
+    
+TO RUN:
+> python3 NFHS5.py 
+
+AUTHOR
+Kalyani Nagaraj
+May 2022
+"""
+
 import fitz
 import pandas as pd
 import re 
@@ -209,4 +232,4 @@ if __name__ == '__main__':
             i += 1
             
             
-    df.to_csv('NFHS5.csv')
+    df.to_csv('../DATA/NFHS5.csv')

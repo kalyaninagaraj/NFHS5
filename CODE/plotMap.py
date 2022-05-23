@@ -1,9 +1,23 @@
-"""Example usage: 
+"""
+Plots the survey response to a given question (indicator) number
+on a map of India
+
+REQUIRES:
+    ../DATA/NFHS5.csv          : see NFHS5.py
+
+
+EXAMPLE USAGE:
+Plot the survey response to Question 57 for each district
+on a map of India
 > python3 plotMap 57
 
-Plots the survey response to Question 57 for each district
-on a map of India
+
+AUTHOR
+Kalyani Nagaraj
+May 2022
 """
+
+
 import geopandas
 import folium
 import pickle
