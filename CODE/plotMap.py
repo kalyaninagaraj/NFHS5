@@ -9,7 +9,7 @@ REQUIRES:
 EXAMPLE USAGE:
 Plot the survey response to Question 57 for each district
 on a map of India
-> python3 plotMap 57
+> python3 plotMap.py 57
 
 
 AUTHOR
